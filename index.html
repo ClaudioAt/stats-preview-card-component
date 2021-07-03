@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/styles.css">
 
   <title>Frontend Mentor | Stats preview card component</title>
@@ -27,28 +31,43 @@
 
   <div class="main-container">
 
+    <div class="content-container">
 
-    <img src="images/image-header-mobile.jpg" alt="header-img-mobile">
+      <div class="main-content">
+        <h1>Get <span class="accent">insights</span> that help your business grow.</h1>
 
-    <h1>Get insights that help your business grow.</h1>
+        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.</p>
+      </div>
 
-    <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
-      experience, and overall efficiency.</p>
+      <div class="stats-container">
+        <div class="stats">
+          <p>10k+</p>
+          <h2>companies</h2>
+        </div>
 
-    <div class="stats">
-      <p>10k+</p>
-      <h2>companies</h2>
+        <div class="stats">
+          <p>314</p>
+          <h2>templates</h2>
+        </div>
+
+        <div class="stats">
+          <p>12M+</p>
+          <h2>queries</h2>
+        </div>
+      </div>
+
     </div>
 
-    <div class="stats">
-      <p>314</p>
-      <h2>templates</h2>
+    <div class="img-container">
+      <img  srcset="images/image-header-mobile.jpg 540w,
+                    images/image-header-desktop.jpg 654w"
+            sizes="(max-width: 500px) 540px,
+                  654px"
+            src="images/image-header-desktop.jpg"
+            alt="header-img">
     </div>
 
-    <div class="stats">
-      <p>12M+</p>
-      <h2>queries</h2>
-    </div>
   </div>
 
   <div class="attribution">

@@ -1,1 +1,100 @@
+/*************** TAG SELECTORS ***************/
+body {
+  background-color: hsl(233, 47%, 7%);
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
 
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+/*************** CLASS SELECTORS ***************/
+.main-container {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 20px auto;
+  overflow: hidden;
+  width: 80%;
+}
+
+.img-container {
+  background-color: hsl(277, 64%, 61%);
+  flex: 1;
+}
+
+.img-container img {
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+
+.content-container {
+  flex: 1;
+  padding: 50px 140px 60px 80px;
+}
+
+.main-content h1 {
+  font-size: 35px;
+  line-height: 1.4;
+}
+
+.main-content p {
+  line-height: 1.8;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+.accent {
+  color: hsl(277, 64%, 61%);
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.stats {
+  flex: 1 auto;
+}
+
+.stats p {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stats h2 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+/*************** SMALL SCREENS ***************/
+
+@media all and (max-width: 500px) {
+  .main-container {
+    text-align: center;
+  }
+}
+
+
+/* DA FARE
+
+- fix the way the img fills its div
+- decide how I want the layout to change and when: media query? flexbox?
+- check padding and margins when the layout switches to column
+
+ */
