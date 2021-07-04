@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://claudioat.github.io/stats-preview-card-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-solution-using-flexbox-Hi6UqeFC3](https://www.frontendmentor.io/solutions/responsive-solution-using-flexbox-Hi6UqeFC3)
+- Live Site URL: [https://claudioat.github.io/stats-preview-card-component/](https://claudioat.github.io/stats-preview-card-component/)
 
 
 
